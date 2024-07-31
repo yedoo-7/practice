@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/admxf/Projects/cppdemo/practice/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/practice_cmake.dir/test/practice.cpp.o -c /home/admxf/Projects/cppdemo/practice/test/practice.cpp",
+  "file": "/home/admxf/Projects/cppdemo/practice/test/practice.cpp",
+  "output": "CMakeFiles/practice_cmake.dir/test/practice.cpp.o"
+}
+]
