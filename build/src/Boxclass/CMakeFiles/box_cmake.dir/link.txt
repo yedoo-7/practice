@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/box_cmake.dir/Box.cpp.o -o /home/admxf/Projects/cppdemo/practice/bin/box_cmake

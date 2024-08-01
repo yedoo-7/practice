@@ -42,3 +42,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/home/admxf/Projects/cppdemo/practice/build/src/Shape/cmake_install.cmake")
+  include("/home/admxf/Projects/cppdemo/practice/build/src/Boxclass/cmake_install.cmake")
+
+endif()
+

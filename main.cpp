@@ -47,6 +47,6 @@ int main()
 
   Box3.set(16.0, 8.0, 12.0); 
   volume = Box3.get(); 
-  cout << "Box3 的体积：" << volume <<endl;
+  cout << "Box13 的体积：" << volume <<endl;
   return 0;
 }

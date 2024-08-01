@@ -78,16 +78,101 @@ clean: src/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all:
+src/all: src/Shape/all
+src/all: src/Boxclass/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
-src/preinstall:
+src/preinstall: src/Shape/preinstall
+src/preinstall: src/Boxclass/preinstall
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean:
+src/clean: src/Shape/clean
+src/clean: src/Boxclass/clean
 .PHONY : src/clean
+
+#=============================================================================
+# Directory level rules for directory src/Boxclass
+
+# Recursive "all" directory target.
+src/Boxclass/all: src/Boxclass/CMakeFiles/box_cmake.dir/all
+.PHONY : src/Boxclass/all
+
+# Recursive "preinstall" directory target.
+src/Boxclass/preinstall:
+.PHONY : src/Boxclass/preinstall
+
+# Recursive "clean" directory target.
+src/Boxclass/clean: src/Boxclass/CMakeFiles/box_cmake.dir/clean
+.PHONY : src/Boxclass/clean
+
+#=============================================================================
+# Directory level rules for directory src/Shape
+
+# Recursive "all" directory target.
+src/Shape/all: src/Shape/CMakeFiles/shape_make.dir/all
+.PHONY : src/Shape/all
+
+# Recursive "preinstall" directory target.
+src/Shape/preinstall:
+.PHONY : src/Shape/preinstall
+
+# Recursive "clean" directory target.
+src/Shape/clean: src/Shape/CMakeFiles/shape_make.dir/clean
+.PHONY : src/Shape/clean
+
+#=============================================================================
+# Target rules for target src/Shape/CMakeFiles/shape_make.dir
+
+# All Build rule for target.
+src/Shape/CMakeFiles/shape_make.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/Shape/CMakeFiles/shape_make.dir/build.make src/Shape/CMakeFiles/shape_make.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/Shape/CMakeFiles/shape_make.dir/build.make src/Shape/CMakeFiles/shape_make.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/admxf/Projects/cppdemo/practice/build/CMakeFiles --progress-num=3,4 "Built target shape_make"
+.PHONY : src/Shape/CMakeFiles/shape_make.dir/all
+
+# Build rule for subdir invocation for target.
+src/Shape/CMakeFiles/shape_make.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admxf/Projects/cppdemo/practice/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Shape/CMakeFiles/shape_make.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admxf/Projects/cppdemo/practice/build/CMakeFiles 0
+.PHONY : src/Shape/CMakeFiles/shape_make.dir/rule
+
+# Convenience name for target.
+shape_make: src/Shape/CMakeFiles/shape_make.dir/rule
+.PHONY : shape_make
+
+# clean rule for target.
+src/Shape/CMakeFiles/shape_make.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/Shape/CMakeFiles/shape_make.dir/build.make src/Shape/CMakeFiles/shape_make.dir/clean
+.PHONY : src/Shape/CMakeFiles/shape_make.dir/clean
+
+#=============================================================================
+# Target rules for target src/Boxclass/CMakeFiles/box_cmake.dir
+
+# All Build rule for target.
+src/Boxclass/CMakeFiles/box_cmake.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/Boxclass/CMakeFiles/box_cmake.dir/build.make src/Boxclass/CMakeFiles/box_cmake.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/Boxclass/CMakeFiles/box_cmake.dir/build.make src/Boxclass/CMakeFiles/box_cmake.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/admxf/Projects/cppdemo/practice/build/CMakeFiles --progress-num=1,2 "Built target box_cmake"
+.PHONY : src/Boxclass/CMakeFiles/box_cmake.dir/all
+
+# Build rule for subdir invocation for target.
+src/Boxclass/CMakeFiles/box_cmake.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admxf/Projects/cppdemo/practice/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Boxclass/CMakeFiles/box_cmake.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admxf/Projects/cppdemo/practice/build/CMakeFiles 0
+.PHONY : src/Boxclass/CMakeFiles/box_cmake.dir/rule
+
+# Convenience name for target.
+box_cmake: src/Boxclass/CMakeFiles/box_cmake.dir/rule
+.PHONY : box_cmake
+
+# clean rule for target.
+src/Boxclass/CMakeFiles/box_cmake.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/Boxclass/CMakeFiles/box_cmake.dir/build.make src/Boxclass/CMakeFiles/box_cmake.dir/clean
+.PHONY : src/Boxclass/CMakeFiles/box_cmake.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

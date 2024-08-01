@@ -14,15 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//Value Computed by CMake
-Box_main_BINARY_DIR:STATIC=/home/admxf/Projects/cppdemo/practice/build/src
-
-//Value Computed by CMake
-Box_main_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-Box_main_SOURCE_DIR:STATIC=/home/admxf/Projects/cppdemo/practice/src
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -156,7 +147,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=PRACTISE
+CMAKE_PROJECT_NAME:STATIC=MAINPROJECT
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -224,22 +215,22 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-PRACTISE_BINARY_DIR:STATIC=/home/admxf/Projects/cppdemo/practice/build
+MAINPROJECT_BINARY_DIR:STATIC=/home/admxf/Projects/cppdemo/practice/build
 
 //Value Computed by CMake
-PRACTISE_IS_TOP_LEVEL:STATIC=ON
+MAINPROJECT_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-PRACTISE_SOURCE_DIR:STATIC=/home/admxf/Projects/cppdemo/practice
+MAINPROJECT_SOURCE_DIR:STATIC=/home/admxf/Projects/cppdemo/practice
 
 //Value Computed by CMake
-planning_main_BINARY_DIR:STATIC=/home/admxf/Projects/cppdemo/practice/build/src
+SRC_BINARY_DIR:STATIC=/home/admxf/Projects/cppdemo/practice/build/src
 
 //Value Computed by CMake
-planning_main_IS_TOP_LEVEL:STATIC=OFF
+SRC_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-planning_main_SOURCE_DIR:STATIC=/home/admxf/Projects/cppdemo/practice/src
+SRC_SOURCE_DIR:STATIC=/home/admxf/Projects/cppdemo/practice/src
 
 
 ########################
@@ -346,7 +337,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -1,8 +1,14 @@
 [
 {
-  "directory": "/home/admxf/Projects/cppdemo/practice/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/practice_cmake.dir/test/practice.cpp.o -c /home/admxf/Projects/cppdemo/practice/test/practice.cpp",
-  "file": "/home/admxf/Projects/cppdemo/practice/test/practice.cpp",
-  "output": "CMakeFiles/practice_cmake.dir/test/practice.cpp.o"
+  "directory": "/home/admxf/Projects/cppdemo/practice/build/src/Shape",
+  "command": "/usr/bin/g++   -g -std=gnu++1z -o CMakeFiles/shape_make.dir/Shape.cpp.o -c /home/admxf/Projects/cppdemo/practice/src/Shape/Shape.cpp",
+  "file": "/home/admxf/Projects/cppdemo/practice/src/Shape/Shape.cpp",
+  "output": "src/Shape/CMakeFiles/shape_make.dir/Shape.cpp.o"
+},
+{
+  "directory": "/home/admxf/Projects/cppdemo/practice/build/src/Boxclass",
+  "command": "/usr/bin/g++   -g -std=gnu++1z -o CMakeFiles/box_cmake.dir/Box.cpp.o -c /home/admxf/Projects/cppdemo/practice/src/Boxclass/Box.cpp",
+  "file": "/home/admxf/Projects/cppdemo/practice/src/Boxclass/Box.cpp",
+  "output": "src/Boxclass/CMakeFiles/box_cmake.dir/Box.cpp.o"
 }
 ]

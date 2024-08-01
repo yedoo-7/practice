@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/practice_cmake.dir/test/practice.cpp.o -o practice_cmake

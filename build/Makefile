@@ -116,6 +116,32 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named shape_make
+
+# Build rule for target.
+shape_make: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shape_make
+.PHONY : shape_make
+
+# fast build rule for target.
+shape_make/fast:
+	$(MAKE) $(MAKESILENT) -f src/Shape/CMakeFiles/shape_make.dir/build.make src/Shape/CMakeFiles/shape_make.dir/build
+.PHONY : shape_make/fast
+
+#=============================================================================
+# Target rules for targets named box_cmake
+
+# Build rule for target.
+box_cmake: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 box_cmake
+.PHONY : box_cmake
+
+# fast build rule for target.
+box_cmake/fast:
+	$(MAKE) $(MAKESILENT) -f src/Boxclass/CMakeFiles/box_cmake.dir/build.make src/Boxclass/CMakeFiles/box_cmake.dir/build
+.PHONY : box_cmake/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +150,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... box_cmake"
+	@echo "... shape_make"
 .PHONY : help
 
 

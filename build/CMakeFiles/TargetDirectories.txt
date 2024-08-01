@@ -2,3 +2,9 @@
 /home/admxf/Projects/cppdemo/practice/build/CMakeFiles/rebuild_cache.dir
 /home/admxf/Projects/cppdemo/practice/build/src/CMakeFiles/edit_cache.dir
 /home/admxf/Projects/cppdemo/practice/build/src/CMakeFiles/rebuild_cache.dir
+/home/admxf/Projects/cppdemo/practice/build/src/Shape/CMakeFiles/shape_make.dir
+/home/admxf/Projects/cppdemo/practice/build/src/Shape/CMakeFiles/edit_cache.dir
+/home/admxf/Projects/cppdemo/practice/build/src/Shape/CMakeFiles/rebuild_cache.dir
+/home/admxf/Projects/cppdemo/practice/build/src/Boxclass/CMakeFiles/box_cmake.dir
+/home/admxf/Projects/cppdemo/practice/build/src/Boxclass/CMakeFiles/edit_cache.dir
+/home/admxf/Projects/cppdemo/practice/build/src/Boxclass/CMakeFiles/rebuild_cache.dir

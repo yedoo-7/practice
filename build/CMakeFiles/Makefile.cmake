@@ -11,7 +11,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.29.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.2/CMakeSystem.cmake"
+  "/home/admxf/Projects/cppdemo/practice/src/Boxclass/CMakeLists.txt"
   "/home/admxf/Projects/cppdemo/practice/src/CMakeLists.txt"
+  "/home/admxf/Projects/cppdemo/practice/src/Shape/CMakeLists.txt"
   "/opt/cmake-3.29.2/share/cmake-3.29/Modules/CMakeCInformation.cmake"
   "/opt/cmake-3.29.2/share/cmake-3.29/Modules/CMakeCXXInformation.cmake"
   "/opt/cmake-3.29.2/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
@@ -42,8 +44,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Shape/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Boxclass/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "src/Shape/CMakeFiles/shape_make.dir/DependInfo.cmake"
+  "src/Boxclass/CMakeFiles/box_cmake.dir/DependInfo.cmake"
   )

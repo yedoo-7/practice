@@ -1,2 +1,2 @@
-# Empty dependencies file for practice_cmake.
+# Empty dependencies file for shape_make.
 # This may be replaced when dependencies are built.
